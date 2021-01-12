@@ -1,4 +1,9 @@
 # 2. Accessible Button Events
+
+## Introduction
+Often buttons need to be handled by JavaScript, and if done improperly it can lead to accessibility issues. In this lesson you will improve a major news organization's global header with some basic HTML and JavaScript.
+
+## Transcript
 00:01 Today, I'm going to tell you about another problem I see quite often on the Web, which is inaccessible buttons. Previously, in our last video, I talked to you about button labels. In this video, we're going to talk about button events, making sure that no matter what type of element you use for a button, it's accessible to a keyboard and screen reader user.
 00:21 Today, we're going to look at cnn.com. The header of their website has some interactive items in it. If I go onto their homepage and start tabbing around, there's a link to the home. There's a link on their logo, a live TV link. There's a hamburger button here, but I can't get to it from the keyboard. I can get to a bunch of other things. If I turn on voiceover.
 
