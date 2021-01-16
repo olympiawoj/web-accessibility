@@ -21,7 +21,7 @@ Often buttons need to be handled by JavaScript, and if done improperly it can le
 
 01:43 How could we make this better? Today I'm going to show you how to fix that. We'll go and look at a demo that I've created. This adds on to the last session that we did on accessible icon button labels. This session is more about the events, to fully round out that story of making accessible icon buttons and other buttons.
 
-02:02 In the demo page, I have a native button with an aria-label of help. It's an icon button, but it has some screen reader text using the aria-label attribute.
+02:02 In the demo page, I have a native button with an `aria-label` of help. It's an icon button, but it has some screen reader text using the aria-label attribute.
 
 02:14 Then, I have another div that looks a little bit like the CNN hamburger button. It's got an icon of menu, but it's a div. It's just a straight-up div with a CSS class on it, so it's not reachable from the keyboard or a screen reader. It doesn't have a label, either, because theirs didn't.
 
@@ -31,7 +31,7 @@ Often buttons need to be handled by JavaScript, and if done improperly it can le
 
 02:57 The thing that really needs fixing first is this div, because it's just got a class of button and no semantic meaning or anything on it. The first thing I'm going to do is add a role of button to tell a screen reader or other assistive technology that this element is a button.
 
-03:12 Then, we'll add the tab-index attribute with a value of zero so that now I can reach it from a keyboard and a screen reader. We're also going to label it. I'm going to add aria-label of menu.
+03:12 Then, we'll add the `tabindex` attribute with a value of zero so that now I can reach it from a keyboard and a screen reader. We're also going to label it. I'm going to add aria-label of menu.
 
 03:24 You could argue that the label should go underneath the icon. That would help reduce any confusion about what that icon meant. For this, we're just going to make it accessible for basic keyboard and screen reader use by doing these three things.
 
