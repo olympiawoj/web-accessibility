@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tabindex Demo</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div tabindex="100" id="fakeBtn" class="btn" role="Button">Button</div> <!-- Tells screenreader this div is actually a button!-->
+
+  <button tabIndex="-1" id="realBtn" class="btn">Button</button> <!--Native button elements don't need a role, it gets that role implicitly-->
+
+  <button>Button</button>
+
+<script src="script.js"></script>
+</body>
+</html>
